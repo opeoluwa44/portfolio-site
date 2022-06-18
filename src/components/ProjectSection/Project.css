@@ -1,0 +1,45 @@
+.btn{
+    background: none;
+    color:#173B3F;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-size: 18px;
+    border-radius: 1px;
+    border: 0;
+    outline: 0;
+    width: 70px;
+    height: 30px;
+    
+
+}
+
+.activate{
+    border-bottom: 2px solid #173B3F;
+
+}
+
+.inactivate{
+    border: 0;
+    transition:0.8s all ease;
+
+}
+
+.google{
+    background-image: url(../../images/Google_2015_logo.svg);
+}
+
+.netflix{
+    background-image: url(../../images/netflix-1-logo-svgrepo-com.svg);
+}
+.good-times{
+    background-image: url(../../images/goodtime.jpg);
+}
+.shoe{
+    background-image: url(../../images/redshoe.jpg);
+}
+.festival{
+    background-image: url(../../images/logo-fest.svg);
+}
+.calculator{
+    background-image: url(../../images/calculator.svg);
+}

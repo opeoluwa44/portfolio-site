@@ -1,0 +1,51 @@
+.experience{
+    background-image:linear-gradient(135deg,rgba(4, 73, 46, 0.75) 100%,
+    rgba(10, 58, 141, 0.5) 0%),url("../../images/experience.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+    object-fit: cover;
+    
+    
+}
+
+.one{
+    background-image:linear-gradient(135deg,rgba(9, 54, 36, 0.7) 100%,
+    rgba(10, 14, 20, 0.7) 0%),url("../../images/bluebg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center right;
+    object-fit: cover;
+    color: #173B3F;
+}
+.two{
+    background-image:linear-gradient(135deg,rgb(122,220,180,.2) 0%,
+    rgba(0, 0, 0, 0.5) 100%),url("../../images/purplebg2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center right;
+    object-fit: cover;
+    
+    
+}
+.three{
+    background-image:linear-gradient(135deg,rgb(122,220,180,.2) 0%,
+    rgba(0, 0, 0, 0.7) 100%),url("../../images/shapebe.jpg");
+}
+
+.spark{
+    fill: #ffcb4c;
+    margin-right: 10px;
+}
+
+
+.spark-list::before{
+    content: "⚡";
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: -1.5em;
+    margin-top: .15rem;
+}

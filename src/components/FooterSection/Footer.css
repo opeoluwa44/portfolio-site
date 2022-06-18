@@ -1,0 +1,12 @@
+
+.list::before{
+    content: "";
+    background-image: url(../../images/bullet.svg);
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: -2em;
+    margin-top: .15rem;
+   
+}
