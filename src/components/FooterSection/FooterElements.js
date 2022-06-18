@@ -38,7 +38,6 @@ export const Quality = styled.ul`
 
     @media screen and (max-width:450px){
         margin-left:.8em;
-      
      }
    
 `
