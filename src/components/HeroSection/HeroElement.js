@@ -18,12 +18,20 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
     list-style:none;
     margin:8em 1.5em;
+
+    @media screen and (max-width:760px){
+      margin:5em 1.5em;
+   }
 `
 export const Title = styled.h1`
     font-size: max(5rem, 8vw);
     font-weight: 400;
     font-style: italic;
     color:#fff;
+
+    @media screen and (max-width:760px){
+      font-size: max(4rem, 6vw);
+   }
 
   
 `
@@ -38,6 +46,10 @@ export const Desc = styled.p`
     max-width:500px;
     font-weight:400;
     font-family: 'Inter',sans-serif;
+
+    @media screen and (max-width:760px){
+      font-size: 16px;
+   }
   
 `
 

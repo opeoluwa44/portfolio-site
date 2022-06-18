@@ -168,6 +168,7 @@ export const CallBtn = styled.a`
     background:#56C870;
     width:20%;
     min-width:200px;
+    text-align:center;
 
     transition:all .25s ease-in-out;
 

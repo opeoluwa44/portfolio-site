@@ -29,12 +29,17 @@ export const Title = styled.div`
 `
 export const TopText = styled.h3`
    font-size:18px;
-   margin:0;
+   margin:0 0 .5em 0;
 `
 export const Quality = styled.ul`
     text-align:left;
     line-height:1.5;
     margin-left:2.5em;
+
+    @media screen and (max-width:450px){
+        margin-left:.8em;
+      
+     }
    
 `
 export const FcMark = styled(FcIcons.FcCheckmark)`
@@ -66,7 +71,7 @@ export const Text = styled.div`
 `
 export const Heading = styled.h3`
     font-size:20px;
-    margin:15px 0 0 0;
+    margin:15px 0 5px 0;
     padding;0;
 
 `
