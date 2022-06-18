@@ -10,12 +10,17 @@ export const ExperienceContainer = styled.div`
     margin-inline:auto;
     display:flex;
     flex-direction: column;
+    overflow:hidden;
 
 `
 export const ExperienceContent = styled.div`
     padding:40px 0;
     text-align:center;
     margin:0 auto;
+
+    @media screen and (max-width:450px){
+        margin-left:-1em;
+    }
 `
 export const Empty = styled.div`
    height:92.5px;
@@ -31,7 +36,7 @@ export const Content = styled.div`
     position:relative;
     max-width:380px;
     gap:2.5em;
-    @media screen and (max-width:360px){
+    @media screen and (max-width:390px){
         font-size:16px;
     }
 
@@ -55,6 +60,10 @@ export const MainText = styled.div`
     max-height:100px;
     font-weight:400;
     align-self:flex-start;
+
+    @media screen and (max-width:390px){
+        margin-left:.5em;
+    }
 
 `
 export const Heading = styled.h5`
@@ -116,13 +125,17 @@ export const Dot= styled.span`
 `
 export const SpanLine = styled.span`
     width:1px;
-    height:80px;
+    height:83px;
     background:#fff;
 `
 export const Title = styled.p`
    color:#fff;
    font-size:30px;
    line-height:1;
+
+   @media screen and (max-width:760px){
+    font-size:20px;
+  }
 
 `
 export const Main = styled.div`
@@ -132,6 +145,7 @@ export const Main = styled.div`
     gap:min(5em, 5vw);
     justify-content:space-around;
     margin-top:5em;
+
     @media screen and (max-width:845px){
         display:grid;
         margin:3em 1em;
@@ -175,6 +189,10 @@ export const CallBtn = styled.a`
     &:hover{
         transform:scale(1.05);
         color:#fff;
+    }
+
+    @media screen and (max-width:390px){
+        padding:14px 20px;
     }
     
    

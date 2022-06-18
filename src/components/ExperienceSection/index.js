@@ -79,7 +79,7 @@ function Experience() {
                     </MainText>
                   
                     <Text>
-                      Devchallenges.io<br/>
+                      Devchallenges<br/>
                       2022
                     </Text>
 

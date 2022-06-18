@@ -20,13 +20,13 @@ function Project() {
         let current = arr.find(c=>c.id===index)
         newActive.activeObject = current
         if(newActive.activeObject.name==='All'){
-            data[3].Recent=true
-            data[4].Recent=true
-            data[5].Recent=true
+            data[0].Recent=true
+            data[1].Recent=true
+            data[2].Recent=true
         }else {
-            data[3].Recent=false
-            data[4].Recent=false
-            data[5].Recent=false
+            data[0].Recent=false
+            data[1].Recent=false
+            data[2].Recent=false
 
         }
         setActive(newActive)
@@ -45,7 +45,7 @@ function Project() {
     <>
         <ProjectContainer id="projects">
             <Title1>
-                Check out some of my Works <br/>
+                <Title>Check out some of my Works </Title><br/>
                 <Desc>I believe programming can only be mastered by doing, 
                 so I am constantly learning to improve myself by building 
                 projects for learning.

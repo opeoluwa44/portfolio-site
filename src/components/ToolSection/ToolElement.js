@@ -9,6 +9,7 @@ export const ToolsContainer = styled.div`
     max-width:1180px;
     margin-inline:auto;
     padding:2em 1em;
+    overflow:hidden;
 `
 
 
@@ -48,6 +49,7 @@ export const CallContainer = styled.div`
     max-width:1180px;
     margin-inline:auto;
     padding:1em 0;
+    overflow:hidden;
 
 `
 
@@ -55,6 +57,7 @@ export const CallWrapper = styled.div`
     padding:.1em .8em;
     display:flex;
     flex-direction:column;
+    overflow:hidden;
 
 `
 
@@ -64,6 +67,10 @@ export const HeadSection = styled.p`
     line-height:1.3;
     text-align:center;
     margin:auto;
+
+    @media screen and (max-width:390px){
+        font-size:25px;
+    }
 `
 
 export const CallBtn = styled.a`
@@ -82,6 +89,10 @@ export const CallBtn = styled.a`
     &:hover{
         transform:scale(1.05);
         color:#fff;
+    }
+
+    @media screen and (max-width:390px){
+        padding:14px 20px;
     }
    
 `

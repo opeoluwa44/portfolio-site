@@ -11,13 +11,14 @@ export const HeroContainer = styled.div`
     min-height: 100vh;
     display:flex;
     color:#fff;
-
+    overflow:hidden;
 
 `
 
 export const HeroWrapper = styled.div`
     list-style:none;
     margin:8em 1.5em;
+    overflow:hidden;
 
     @media screen and (max-width:760px){
       margin:5em 1.5em;
@@ -72,13 +73,14 @@ export const DownloadBtn = styled.a`
     text-decoration:none;
     font-size:18px;
     font-weight:700;
-    padding:5px 20px;
-    display:inline-block;
+    padding:5px 40px;
+    display:flex;
     color:#173B3F;
     border:1px solid #fff;
     border-radius: 48px;
     color:#fff;
     margin-left:0;
+    text-align:center;
 
     transition:all .25s ease-in-out;
 
@@ -86,9 +88,11 @@ export const DownloadBtn = styled.a`
         transform:scale(1.05);
     }
 
-    @media screen and (max-width:380px){
-      display:flex;
+    @media screen and (max-width:390px){
+      display:inline-block;
       justify-content:center;
+      padding:5px 10px;
+
     }
   }
     
@@ -119,16 +123,17 @@ export const ItemLinks = styled.a`
         color:#173B3F;
         background:#56C870;
         border-radius: 48px;
-
+        text-align:center;
         transition:all .25s ease-in-out;
 
     &:hover{
         transform:scale(1.05);
     }
 
-        @media screen and (max-width:380px){
-          display:flex;
-          justify-content:center;
-        }
+    }
+
+    @media screen and (max-width:390px){
+      display:inline-block;
+      justify-content:center;
     }
 `

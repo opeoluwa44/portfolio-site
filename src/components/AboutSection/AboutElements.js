@@ -9,15 +9,22 @@ export const AboutContainer = styled.div`
     max-width:1180px;
     margin-inline:auto;
     padding:5% 0;
+    overflow:hidden;
 `
 export const HeaderText = styled.p`
     color:#173B3F;
     font-size:30px;
     line-height:1;
     text-align:center;
+
+    @media screen and (max-width:760px){
+        font-size:20px;
+    
+    }
 `
 export const ContentContainer = styled.div`
   display:grid;
+  overflow:hidden;
 `
 export const Span = styled.span`
   font-weight:700;
@@ -49,6 +56,7 @@ export const ImageFrame = styled.div`
     height:320px;
     border-radius:50%;
     position:relative;
+
 `
 
 export const Image = styled.img`
@@ -56,6 +64,7 @@ export const Image = styled.img`
     height:100%;
     border-radius:10%;
     position: absolute;
+    left:25px;
     z-index:3;
 `
 
@@ -64,9 +73,9 @@ export const Border = styled.div`
     height:100%;
     border-radius:10%;
     position: absolute;
-    top:-35px;
+    top:-5px;
     left:30px;
-    border: 5px solid #173B3F;
+    border: 1px solid #173B3F;
     z-index:2;
   
 `
@@ -77,12 +86,6 @@ export const TextContainer = styled.div`
     grid-column: span 1;
     width:300px
     max-height:300px;
-    font-size:20px;
-
-    @media screen and (max-width:760px){
-    font-size:16px;
-
-    }
 `
 
 export const Paragraph = styled.p`
@@ -92,7 +95,10 @@ export const Paragraph = styled.p`
     line-height: 28px;
     font-weight: 300;
 
-  
+    @media screen and (max-width:760px){
+        font-size:16px;
+    }
+    
 `
 export const MainSkill = styled.div`
     width:100%;

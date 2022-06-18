@@ -21,7 +21,7 @@ export const Nav = styled.nav`
  }
  @media screen and (max-width:350px){
   background:#191919;
-
+  overflow:hidden;
  }
 `
 
@@ -33,6 +33,7 @@ export const NavbarContainer = styled.div`
  width:100%;
  padding:10px 10px;
  max-width:1200px;
+ overflow:hidden;
 `
 
 export const NavLogo = styled(scroll)`
@@ -44,6 +45,11 @@ export const NavLogo = styled(scroll)`
  margin-left:24px;
  font-weight:bold;
  text-decoration: none;
+
+ @media screen and (max-width:450px){
+  font-size: 25px;
+  
+}
 `
 
 export const NavMenu = styled.ul`
@@ -102,8 +108,6 @@ export const DownloadBtn = styled.a`
         transform:scale(1.05);
     }
 
-
-    
   @media screen and (max-width:1000px){
     display:none
   }
@@ -150,5 +154,6 @@ transition:all .25s ease-in-out;
 @media screen and (max-width:1000px){
   display:none
 }
+
 `
  

@@ -11,6 +11,7 @@ export const ProjectContainer = styled.div`
     padding:3em 24px 0 24px;
     display:flex;
     flex-direction:column;
+    overflow:hidden;
 `
 
 export const Title = styled.h2`
@@ -18,15 +19,25 @@ export const Title = styled.h2`
     color: #173B3F;
     font-weight:800;
 
+    @media screen and (max-width:760px){
+        font-size:30px;
+        margin:0;
+    }
+
 `
 
 export const Title1 = styled.h1`
     color:#173B3F;
-    font-size:40px;
+    font-size:30px;
     line-height:1;
     text-align:center;
     margin:0 auto;
+
+    @media screen and (max-width:760px){
+        font-size:20px;
+    }
    
+    
 `
 export const BtnContainer = styled.div`
     display:flex;
@@ -68,13 +79,18 @@ export const ImgFm = styled.div`
     background-position:top bottom;
     background-repeat: no-repeat;
     object-fit: contain; 
-    margin:auto;
+    margin:2em auto 0 auto;
     
 `
 export const Desc = styled.p`
     color: #173B3F;
     font-size:20px;
     max-width:800px;
+
+    @media screen and (max-width:760px){
+        font-size:18px;
+    }
+   
     
 `
 export const LinkContain = styled.div`

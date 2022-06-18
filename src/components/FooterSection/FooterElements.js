@@ -8,6 +8,7 @@ import * as FcIcons from 'react-icons/fc'
 export const FooterSection = styled.div`
     width:100%
     max-width:1180px;
+    overflow:hidden;
 `
 export const IntroRow = styled.div`
     width:100%;
@@ -26,6 +27,11 @@ export const IntroContainer = styled.div`
 export const Title = styled.div`
    font-size:40px;
    line-height:1;
+
+   @media screen and (max-width:390px){
+    font-size:25px;
+ }
+
 `
 export const TopText = styled.h3`
    font-size:18px;
@@ -73,10 +79,18 @@ export const Heading = styled.h3`
     margin:15px 0 5px 0;
     padding;0;
 
+    @media screen and (max-width:390px){
+        font-size:18px;
+    }
+
 `
 export const Desc = styled.p`
     font-size:18px;
     margin:0 0 15px 0;
+
+    @media screen and (max-width:390px){
+        font-size:16px;
+    }
 
 `
 export const NavLink = styled.a`
@@ -92,6 +106,10 @@ export const NavLink = styled.a`
 
     &:hover{
         transform:scale(1.05);
+    }
+
+    @media screen and (max-width:390px){
+        padding:14px 20px;
     }
 
 `
@@ -140,6 +158,10 @@ export const SocialList = styled.div`
 export const List = styled.li`
     list-style:none;
     position:relative;
+
+    @media screen and (max-width:390px){
+        font-size:18px;
+     }
 `
 export const Icon = styled.div`
     font-size:48px;
