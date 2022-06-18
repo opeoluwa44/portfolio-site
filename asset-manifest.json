@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.c60046f1.css",
+    "main.js": "/portfolio-site/static/js/main.30159e49.js",
+    "static/media/redshoe.jpg": "/portfolio-site/static/media/redshoe.64dbe30266d2a4f65687.jpg",
+    "static/media/solar.jpg": "/portfolio-site/static/media/solar.b5b1ffd36096462dec0d.jpg",
+    "static/media/experience.jpg": "/portfolio-site/static/media/experience.628eec2f645082c60181.jpg",
+    "static/media/resume_pe.pdf": "/portfolio-site/static/media/resume_pe.4ddf6d800f6fdad92f05.pdf",
+    "static/media/ope-ab.jpg": "/portfolio-site/static/media/ope-ab.9198eeb6b6b822abf852.jpg",
+    "static/media/shapebe.jpg": "/portfolio-site/static/media/shapebe.044b1cfc8f477d4d8f8b.jpg",
+    "static/media/goodtime.jpg": "/portfolio-site/static/media/goodtime.38ff3ba99c5e0f560bc4.jpg",
+    "static/media/purplebg2.jpeg": "/portfolio-site/static/media/purplebg2.5073ed0356f05f8c60ce.jpeg",
+    "static/media/bluebg.jpeg": "/portfolio-site/static/media/bluebg.9717296b299e7c1bcc3c.jpeg",
+    "static/media/logo-fest.svg": "/portfolio-site/static/media/logo-fest.f67f828663daa34ef82c.svg",
+    "static/media/netflix-1-logo-svgrepo-com.svg": "/portfolio-site/static/media/netflix-1-logo-svgrepo-com.8bcda601cf91843a35fa.svg",
+    "static/media/Google_2015_logo.svg": "/portfolio-site/static/media/Google_2015_logo.64742f6405be8486218c.svg",
+    "index.html": "/portfolio-site/index.html",
+    "static/media/bullet.svg": "/portfolio-site/static/media/bullet.ee54738bdac806fef4dd.svg",
+    "static/media/calculator.svg": "/portfolio-site/static/media/calculator.0676199a00784a1fb04a.svg",
+    "main.c60046f1.css.map": "/portfolio-site/static/css/main.c60046f1.css.map",
+    "main.30159e49.js.map": "/portfolio-site/static/js/main.30159e49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c60046f1.css",
+    "static/js/main.30159e49.js"
+  ]
+}
