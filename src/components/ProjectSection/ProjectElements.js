@@ -86,12 +86,11 @@ export const Desc = styled.p`
     color: #173B3F;
     font-size:20px;
     max-width:800px;
+    line-height:1.3;
 
     @media screen and (max-width:760px){
         font-size:18px;
     }
-   
-    
 `
 export const LinkContain = styled.div`
     display: flex;

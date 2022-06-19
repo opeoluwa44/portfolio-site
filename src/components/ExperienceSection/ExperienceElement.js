@@ -135,6 +135,7 @@ export const Title = styled.p`
 
    @media screen and (max-width:760px){
     font-size:20px;
+    line-height:1.3;
   }
 
 `
@@ -155,6 +156,10 @@ export const Main = styled.div`
 export const SmallText = styled.div`
     color:#fff;
     line-height:1.2;
+
+    @media screen and (max-width:760px){
+        line-height:1.3;
+    }
 `
 export const Span = styled.span`
     font-weight:700;
