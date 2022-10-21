@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Nav, NavbarContainer, NavLogo, NavMenu, NavLinks, NavItem,DownloadBtn, ItemLinks, Cloud, Wave} from './NavbarElements'
 import './Navbar.css';
-import Download from '../../images/resume_pe.pdf'
+import Download from '../../images/CV_ope.pdf'
 
 
 function Navbar({isOpen, toggled}) {

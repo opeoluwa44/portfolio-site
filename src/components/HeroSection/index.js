@@ -2,7 +2,7 @@ import React from 'react'
 import {HeroContainer, Desc, HeroWrapper, Title, 
   Subtitle, NavMenu, DownloadBtn, 
   ItemLinks, Cloud, Wave} from './HeroElement'
-import Download from '../../images/resume_pe.pdf'
+import Download from '../../images/CV_ope.pdf'
 
 
 function HeroSection() {
