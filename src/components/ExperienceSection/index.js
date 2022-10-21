@@ -2,11 +2,9 @@ import React from 'react'
 import {ExperienceContainer, ExperienceContent, Title, 
   BigContent, Content, MainText, Heading, Line, Text, 
   SpanCircle, SpanLine, SpanCircleSm, Dot, Empty, Main, 
-  Span, SmallText, CallBtn, TopLine, SubMain, SlideFrame, 
-  Frame, ExpBox, ExpHeader, ExpContent, List, Desc} from './ExperienceElement'
+  Span, SmallText, CallBtn, TopLine} from './ExperienceElement'
 import * as GiIcons from  'react-icons/gi'
 import './Experience.css';
-import experience from './ExperienceData';
 
 
 function Experience() {
@@ -92,32 +90,7 @@ function Experience() {
               </ExperienceContent>
 
             </Main>
-            <SubMain>
-              <SlideFrame>
-                <Frame>
-                  {experience.map(el=>(
-                  <ExpBox key={el.id} className={el.color}>
-                    <ExpHeader>{el.title}<br/>
-                    <Desc>{el.desc}</Desc>
-                  </ExpHeader>
-                    
-                    <ExpContent>
-                      <List className='spark-list'>
-                        {el.list1}
-                      </List>
-                      <List className='spark-list'>
-                        {el.list2}
-                      </List>
-                      <List className='spark-list'>
-                        {el.list3}
-                      </List>
-                    </ExpContent>
-
-                  </ExpBox>
-                  ))}
-                </Frame>
-              </SlideFrame>
-            </SubMain>
+            
         </ExperienceContainer>
     </>
   )
