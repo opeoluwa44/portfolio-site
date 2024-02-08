@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import {Nav, NavbarContainer, NavLogo, NavMenu, NavLinks, NavItem,DownloadBtn, ItemLinks, Cloud, Wave} from './NavbarElements'
+import {Nav, NavbarContainer, NavLogo, NavMenu, NavLinks, NavItem, DownloadBtn, ItemLinks, Cloud, Wave} from './NavbarElements'
 import './Navbar.css';
-import Download from '../../images/CV_ope.pdf'
+import Download from '../../images/Resume_ope.pdf'
 
 
 function Navbar({isOpen, toggled}) {
@@ -16,7 +16,7 @@ function Navbar({isOpen, toggled}) {
             }else handleShow(false)
             return ()=> {
                 //once the use effect is fired up remove event listener b4 another fire up. 
-                // so we dont have too much event listener active
+                // so we don't have too much event listener active
                 window.removeEventListener("scroll")
             }
         });
