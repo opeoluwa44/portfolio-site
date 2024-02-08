@@ -75,6 +75,8 @@ export const DownloadBtn = styled.a`
     font-weight:700;
     padding:5px 40px;
     display:flex;
+    align-items:center;
+    gap:.5rem;
     color:#173B3F;
     border:1px solid #fff;
     border-radius: 48px;
@@ -119,7 +121,9 @@ export const ItemLinks = styled.a`
         font-size:18px;
         font-weight:700;
         padding:10px 40px;
-        display:inline-block;
+        display:flex;
+        align-items:center;
+        gap:.5rem;
         color:#173B3F;
         background:#56C870;
         border-radius: 48px;

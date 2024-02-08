@@ -9,19 +9,13 @@
     outline: 0;
     width: 70px;
     height: 30px;
-    
+    border: 0;
+    transition:100ms all ease;
 
 }
 
 .activate{
     border-bottom: 2px solid #173B3F;
-
-}
-
-.inactivate{
-    border: 0;
-    transition:0.8s all ease;
-
 }
 
 .google{
@@ -34,11 +28,11 @@
 .good-times{
     background-image: url(../../images/goodtime.jpg);
 }
-.shoe{
-    background-image: url(../../images/redshoe.jpg);
+.shopify{
+    background-image: url(../../images/icons8-shopify-an-e-commerce-platform-that-helps-to-sell-online-24.png);
 }
-.festival{
-    background-image: url(../../images/logo-fest.svg);
+.dashboard{
+    background-image: url(../../images/icons8-dashboard-100.png);
 }
 .calculator{
     background-image: url(../../images/calculator.svg);

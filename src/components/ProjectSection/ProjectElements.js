@@ -79,7 +79,7 @@ export const ImgFm = styled.div`
     background-position:top bottom;
     background-repeat: no-repeat;
     object-fit: contain; 
-    margin:2em auto 0 auto;
+    margin:1em auto 0 auto;
     
 `
 export const Desc = styled.p`

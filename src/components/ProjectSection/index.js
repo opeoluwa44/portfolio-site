@@ -19,14 +19,18 @@ function Project() {
         const arr = newActive.Objects
         let current = arr.find(c=>c.id===index)
         newActive.activeObject = current
-        if(newActive.activeObject.name==='All'){
+        if(newActive.activeObject.name ==='All'){
             data[0].Recent=true
             data[1].Recent=true
             data[2].Recent=true
-        }else {
+            data[3].Recent=true
+            data[4].Recent=true
+            data[5].Recent=true
+
+        }else if(newActive.activeObject.name === 'Recent') {
             data[0].Recent=false
-            data[1].Recent=false
-            data[2].Recent=false
+            data[3].Recent=false
+            data[5].Recent=false
 
         }
         setActive(newActive)
