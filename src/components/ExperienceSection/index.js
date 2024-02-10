@@ -47,7 +47,7 @@ function Experience() {
                   
                     <Text>
                       University of Lagos<br/>
-                        2017-2022
+                        2017-2023
                     </Text>
 
                     <Line>
@@ -77,8 +77,8 @@ function Experience() {
                     </MainText>
                   
                     <Text>
-                      Devchallenges<br/>
-                      2022
+                      Pluralsight<br/>
+                      2021
                     </Text>
 
                     <Line>

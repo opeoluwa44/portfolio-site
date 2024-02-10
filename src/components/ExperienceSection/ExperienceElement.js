@@ -144,7 +144,7 @@ export const Main = styled.div`
     align-items:center;
     margin:0 auto;
     gap:min(5em, 5vw);
-    justify-content:space-around;
+    justify-content:space-between;
     margin-top:5em;
 
     @media screen and (max-width:845px){
